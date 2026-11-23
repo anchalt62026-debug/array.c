@@ -1,15 +1,8 @@
 #include<stdio.h>
 int main(){
-    int arr[10];
-    printf("enter the elements of array");
-    for(int i=0;i<5; i++)
+    for(int i=1;i<=10; i++)
     {
-        scanf("%d",&arr[i]);
-    }
-    printf("element are:");
-    for(int i=0; i<5; i++)
-    {
-        printf("%d",&arr[i]);
+     printf("%d\n",2*i);
     }
     return 0;
 }
